@@ -1,0 +1,104 @@
+h1{
+    color: rgb(218, 214, 213);
+    font-family: 'Dela Gothic One',cursive;
+    text-align: center;
+} 
+h3{
+    color:rgb(235, 245, 235);
+}
+h4{ text-align: center;
+    color: rgb(226, 226, 218);
+} 
+ul .teams{
+    color: yellow;
+    margin-top: 3px;
+}
+
+
+
+@media screen {min-width: 250px) and (max-width: 800px);
+    
+}
+body{
+    display:flex;
+background-image: url("gavel-3577255_960_720.webp");
+background-size: 100%;
+position: absolute;
+background-position:auto;
+background-repeat: no-repeat;
+margin: 0%;
+padding: 0%;
+flex-grow: 3;
+flex-shrink: 3;
+justify-content: center;
+opacity: 0.7;
+top:0%;
+bottom:0%;
+left: 0%;
+
+}
+
+
+#Heading{
+    display:flex;
+    justify-content: center;
+ font-style: italic;
+ margin:3%;
+ size: 50%;
+ text-align: center; 
+ display: inline-block;
+}
+
+
+.navigation ul{
+    float: center;
+   /* background-color: rgb(67, 236, 15);
+    list-style: none; */
+    padding: 5px 5px 5px 5px;  
+    margin: auto;  
+    width: 445px;
+}
+.navigation li{  
+display: inline-block;
+margin: 0px 18px ;
+cursor: pointer;
+}
+.navigation a:hover{
+    color: rgb(12, 12, 12);
+    text-decoration: underline;
+}
+.navigation :active
+{
+    text-decoration: underline;
+}
+.navigation a{
+    text-decoration: none;
+    color: honeydew;
+}
+button{
+    background-color: rgb(26, 73, 161);
+    border-color: rgb(224, 224, 233);
+    border-radius: 10pc;
+    cursor: pointer;
+}
+button a{
+    font-style: normal ;
+    text-decoration: none;
+}
+ 
+
+button a:hover{
+    background-color: rgb(rgb(217, 255, 0), rgb(109, 128, 0), rgb(234, 250, 12));
+}
+.teams a{
+    color: rgb(185, 181, 181);
+    text-decoration: none;
+    width: 180px;
+    margin: 2px 0px;
+}
+
+
+.welcome{
+    position: center;
+    margin: 3% 4%;
+}
